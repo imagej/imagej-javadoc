@@ -50,12 +50,10 @@
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-common</artifactId>
 		</dependency>
-<!-- TEMP: until script-templates bug is resolved; see: http://bit.ly/1tIRpSx
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-legacy</artifactId>
 		</dependency>
--->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-ops</artifactId>
@@ -98,7 +96,6 @@
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-plugins-text-plain</artifactId>
 		</dependency>
-<!-- TEMP: until script-templates bug is resolved; see: http://bit.ly/1tIRpSx
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-beanshell</artifactId>
@@ -123,7 +120,6 @@
 			<groupId>org.scijava</groupId>
 			<artifactId>scripting-jython</artifactId>
 		</dependency>
--->
 	</dependencies>
 
 	<build>
@@ -141,6 +137,18 @@
 				</executions>
 				<configuration>
 					<includeDependencySources>true</includeDependencySources>
+
+					<!-- NB: Avoid javadoc bug with script-templates folders;
+					     See: http://stackoverflow.com/a/26787869/1207769 -->
+					<sourceModifications>
+						<sourceModification>
+							<className>fakeClass</className>
+							<includes>
+								<include name="script-templates.java" />
+							</includes>
+						</sourceModification>
+					</sourceModifications>
+
 					<dependencySourceExcludes>
 						<!-- No need to include the tools -->
 						<dependencySourceExclude>com.sun:*</dependencySourceExclude>
