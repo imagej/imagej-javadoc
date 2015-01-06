@@ -39,89 +39,103 @@
 	</repositories>
 
 	<dependencies>
-		<!-- ImageJ dependencies -->
+		<!-- ImageJ - https://github.com/imagej/imagej -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej</artifactId>
 		</dependency>
+
+		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
+
+		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij1-patcher</artifactId>
+		</dependency>
+
+		<!-- ImageJ Common - https://github.com/imagej/imagej-common -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-common</artifactId>
 		</dependency>
+
+		<!-- ImageJ Launcher - https://github.com/imagej/imagej-launcher -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-launcher</artifactId>
+		</dependency>
+
+		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
 <!-- TEMP: until script-templates bug is resolved; see: http://bit.ly/1tIRpSx
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-legacy</artifactId>
 		</dependency>
 -->
+
+		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-omero</artifactId>
+		</dependency>
+
+		<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-ops</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej-updater</artifactId>
-		</dependency>
+
+		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-plugins-commands</artifactId>
 		</dependency>
+
+		<!-- ImageJ Plugins: Tools - https://github.com/imagej/imagej-plugins-commands -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-plugins-tools</artifactId>
 		</dependency>
+
+		<!-- ImageJ Plugins: Uploader: SSH - https://github.com/imagej/imagej-plugins-uploader-ssh -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-plugins-uploader-ssh</artifactId>
 		</dependency>
+
+		<!-- ImageJ Plugins: Uploader: WebDAV - https://github.com/imagej/imagej-plugins-uploader-webdav -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-plugins-uploader-webdav</artifactId>
 		</dependency>
 
-		<!-- SciJava dependencies -->
+		<!-- ImageJ UI: AWT - https://github.com/imagej/imagej-ui-awt -->
 		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scijava-common</artifactId>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-ui-awt</artifactId>
 		</dependency>
+
+		<!-- ImageJ UI: Swing - https://github.com/imagej/imagej-ui-swing -->
 		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scijava-plugins-platforms</artifactId>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-ui-swing</artifactId>
 		</dependency>
+
+		<!-- ImageJ Updater - https://github.com/imagej/imagej-updater -->
 		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scijava-plugins-text-markdown</artifactId>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-updater</artifactId>
 		</dependency>
+
+		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
 		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scijava-plugins-text-plain</artifactId>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-usage</artifactId>
 		</dependency>
-<!-- TEMP: until script-templates bug is resolved; see: http://bit.ly/1tIRpSx
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scripting-beanshell</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scripting-clojure</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scripting-java</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scripting-javascript</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scripting-jruby</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.scijava</groupId>
-			<artifactId>scripting-jython</artifactId>
-		</dependency>
--->
 	</dependencies>
 
 </project>
