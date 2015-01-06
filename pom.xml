@@ -22,12 +22,10 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/imagej/imagej-javadoc</url>
 	</scm>
-
 	<issueManagement>
 		<system>GitHub Issues</system>
 		<url>https://github.com/imagej/imagej-javadoc/issues</url>
 	</issueManagement>
-
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/ImageJ-javadoc/</url>
