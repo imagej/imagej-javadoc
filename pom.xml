@@ -13,7 +13,7 @@
 	<version>2.0.0-SNAPSHOT</version>
 
 	<name>ImageJ Javadocs</name>
-	<description>All the Javadocs for ImageJ. ImageJ is an open source Java image processing program inspired by NIH Image for the Macintosh.</description>
+	<description>All the Javadocs for ImageJ.</description>
 	<inceptionYear>1997</inceptionYear>
 
 	<scm>
