@@ -45,12 +45,6 @@
 			<artifactId>imagej</artifactId>
 		</dependency>
 
-		<!-- ImageJ 1.x - https://github.com/imagej/ImageJA -->
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>ij</artifactId>
-		</dependency>
-
 		<!-- ImageJ 1.x patcher - https://github.com/imagej/ij1-patcher -->
 		<dependency>
 			<groupId>net.imagej</groupId>
