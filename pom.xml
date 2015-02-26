@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>net.imagej</groupId>
 		<artifactId>pom-imagej</artifactId>
-		<version>5.3.0</version>
+		<version>5.11.0</version>
 		<relativePath />
 	</parent>
 
@@ -66,12 +66,10 @@
 		</dependency>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
-<!-- TEMP: until script-templates bug is resolved; see: http://bit.ly/1tIRpSx
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-legacy</artifactId>
 		</dependency>
--->
 
 		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
 		<dependency>
