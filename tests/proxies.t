@@ -105,3 +105,17 @@ Check address work without trailing slashes
   HTTP/1.1 302 Found
   $ curl -Is http://javadoc.imagej.net/Java3D | head -n 1
   HTTP/1.1 302 Found
+
+Test the ImageJ "catch-all" redirects
+  $ curl -Is http://javadoc.imagej.net/ImageJ1000 | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/ImageJ1000 | sed -n '4p'
+  Location: http://javadoc.imagej.net/job/ImageJ-javadoc/javadoc/
+  $ curl -Is http://javadoc.imagej.net/ImageJ2000 | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/ImageJ2000 | sed -n '4p'
+  Location: http://javadoc.imagej.net/job/ImageJ-javadoc/javadoc/
+  $ curl -Is http://javadoc.imagej.net/ImageJ3000 | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/ImageJ3000 | sed -n '4p'
+  Location: http://javadoc.imagej.net/job/ImageJ-javadoc/javadoc/
