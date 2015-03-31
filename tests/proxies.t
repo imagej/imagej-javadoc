@@ -55,3 +55,53 @@ Check a couple of secondary aliases:
   HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/Java/index.html | head -n 1
   HTTP/1.1 200 OK
+
+Check address work without trailing slashes
+  $ curl -Is http://javadoc.imagej.net/ImageJ | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/ImgLib2 | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/SCIFIO | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/SciJava | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Fiji | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/ImageJ1 | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Bio-Formats | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/SLIM-Curve | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Icy | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/KNIME | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/OMERO | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/MiToBo | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Eclipse | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/NetBeans | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/LOCI | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/MPI-CBG | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Pivot | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/MigLayout | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Javassist | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/JHotDraw | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Java6 | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Java7 | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Java8 | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Java3D | head -n 1
+  HTTP/1.1 302 Found
