@@ -110,12 +110,12 @@ Test the ImageJ "catch-all" redirects
   $ curl -Is http://javadoc.imagej.net/ImageJ1000 | head -n 1
   HTTP/1.1 302 Found
   $ curl -Is http://javadoc.imagej.net/ImageJ1000 | sed -n '4p'
-  Location: http://javadoc.imagej.net/job/ImageJ-javadoc/javadoc/
+  Location: http://javadoc.imagej.net/ImageJ/
   $ curl -Is http://javadoc.imagej.net/ImageJ2000 | head -n 1
   HTTP/1.1 302 Found
   $ curl -Is http://javadoc.imagej.net/ImageJ2000 | sed -n '4p'
-  Location: http://javadoc.imagej.net/job/ImageJ-javadoc/javadoc/
+  Location: http://javadoc.imagej.net/ImageJ/
   $ curl -Is http://javadoc.imagej.net/ImageJ3000 | head -n 1
   HTTP/1.1 302 Found
   $ curl -Is http://javadoc.imagej.net/ImageJ3000 | sed -n '4p'
-  Location: http://javadoc.imagej.net/job/ImageJ-javadoc/javadoc/
+  Location: http://javadoc.imagej.net/ImageJ/
