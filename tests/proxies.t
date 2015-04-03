@@ -56,7 +56,8 @@ Check a couple of secondary aliases:
   $ curl -Is http://javadoc.imagej.net/Java/index.html | head -n 1
   HTTP/1.1 200 OK
 
-Check address work without trailing slashes
+Check that URLs work without trailing slashes:
+
   $ curl -Is http://javadoc.imagej.net/ImageJ | head -n 1
   HTTP/1.1 302 Found
   $ curl -Is http://javadoc.imagej.net/ImgLib2 | head -n 1
@@ -106,7 +107,8 @@ Check address work without trailing slashes
   $ curl -Is http://javadoc.imagej.net/Java3D | head -n 1
   HTTP/1.1 302 Found
 
-Test the ImageJ "catch-all" redirects
+Test the ImageJ "catch-all" redirects:
+
   $ curl -Is http://javadoc.imagej.net/ImageJ1000 | head -n 1
   HTTP/1.1 302 Found
   $ curl -Is http://javadoc.imagej.net/ImageJ1000 | sed -n '4p'
