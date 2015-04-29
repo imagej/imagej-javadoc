@@ -1,3 +1,5 @@
+![](http://jenkins.imagej.net/job/ImageJ-javadoc/lastBuild/badge/icon)
+
 This project aggregates the javadoc of ImageJ components.
 
 They are built and published to:
