@@ -77,7 +77,7 @@
 			<artifactId>imagej-omero</artifactId>
 		</dependency>
 
-		<!-- ImageJ OPS - https://github.com/imagej/imagej-ops -->
+		<!-- ImageJ Ops - https://github.com/imagej/imagej-ops -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-ops</artifactId>
