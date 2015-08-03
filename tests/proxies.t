@@ -40,6 +40,14 @@ Ensure URL proxies all still work:
   HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/JHotDraw/index.html | head -n 1
   HTTP/1.1 200 OK
+  $ curl -Is http://javadoc.imagej.net/Apache-Commons-Lang/index.html | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Apache-Commons-Math/index.html | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/JFreeChart/index.html | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/JGraphT/index.html | head -n 1
+  HTTP/1.1 302 Found
   $ curl -Is http://javadoc.imagej.net/Java6/index.html | head -n 1
   HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/Java7/index.html | head -n 1
@@ -97,6 +105,14 @@ Check that URLs work without trailing slashes:
   $ curl -Is http://javadoc.imagej.net/Javassist | head -n 1
   HTTP/1.1 302 Found
   $ curl -Is http://javadoc.imagej.net/JHotDraw | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Apache-Commons-Lang | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/Apache-Commons-Math | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/JFreeChart | head -n 1
+  HTTP/1.1 302 Found
+  $ curl -Is http://javadoc.imagej.net/JGraphT | head -n 1
   HTTP/1.1 302 Found
   $ curl -Is http://javadoc.imagej.net/Java6 | head -n 1
   HTTP/1.1 302 Found
