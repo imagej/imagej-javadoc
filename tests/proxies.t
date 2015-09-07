@@ -16,11 +16,17 @@ Ensure URL proxies all still work:
   HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/SLIM-Curve/index.html | head -n 1
   HTTP/1.1 200 OK
-  $ curl -Is http://javadoc.imagej.net/Icy/index.html | head -n 1
+  $ curl -Is http://javadoc.imagej.net/Micro-Manager-Core/index.html | head -n 1
+  HTTP/1.1 200 OK
+  $ curl -Is http://javadoc.imagej.net/Micro-Manager-Studio/index.html | head -n 1
   HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/KNIME/index.html | head -n 1
   HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/OMERO/index.html | head -n 1
+  HTTP/1.1 200 OK
+  $ curl -Is http://javadoc.imagej.net/Icy/index.html | head -n 1
+  HTTP/1.1 200 OK
+  $ curl -Is http://javadoc.imagej.net/Alida/index.html | head -n 1
   HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/MiToBo/index.html | head -n 1
   HTTP/1.1 200 OK
@@ -82,11 +88,17 @@ Check that URLs work without trailing slashes:
   HTTP/1.1 301 Moved Permanently
   $ curl -Is http://javadoc.imagej.net/SLIM-Curve | head -n 1
   HTTP/1.1 301 Moved Permanently
-  $ curl -Is http://javadoc.imagej.net/Icy | head -n 1
+  $ curl -Is http://javadoc.imagej.net/Micro-Manager-Core | head -n 1
+  HTTP/1.1 301 Moved Permanently
+  $ curl -Is http://javadoc.imagej.net/Micro-Manager-Studio | head -n 1
   HTTP/1.1 301 Moved Permanently
   $ curl -Is http://javadoc.imagej.net/KNIME | head -n 1
   HTTP/1.1 301 Moved Permanently
   $ curl -Is http://javadoc.imagej.net/OMERO | head -n 1
+  HTTP/1.1 301 Moved Permanently
+  $ curl -Is http://javadoc.imagej.net/Icy | head -n 1
+  HTTP/1.1 301 Moved Permanently
+  $ curl -Is http://javadoc.imagej.net/Alida | head -n 1
   HTTP/1.1 301 Moved Permanently
   $ curl -Is http://javadoc.imagej.net/MiToBo | head -n 1
   HTTP/1.1 301 Moved Permanently
