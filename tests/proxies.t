@@ -138,14 +138,10 @@ Check that URLs work without trailing slashes:
 Test the ImageJ "catch-all" redirects:
 
   $ curl -Is http://javadoc.imagej.net/ImageJ1000 | head -n 1
-  HTTP/1.1 301 Moved Permanently
-  $ curl -Is http://javadoc.imagej.net/ImageJ1000 | sed -n '4p'
-  Location: http://javadoc.imagej.net/ImageJ/
+  HTTP/1.1 404 Not Found
   $ curl -Is http://javadoc.imagej.net/ImageJ2000 | head -n 1
-  HTTP/1.1 301 Moved Permanently
-  $ curl -Is http://javadoc.imagej.net/ImageJ2000 | sed -n '4p'
-  Location: http://javadoc.imagej.net/ImageJ/
+  HTTP/1.1 404 Not Found
   $ curl -Is http://javadoc.imagej.net/ImageJ3000 | head -n 1
-  HTTP/1.1 301 Moved Permanently
-  $ curl -Is http://javadoc.imagej.net/ImageJ3000 | sed -n '4p'
-  Location: http://javadoc.imagej.net/ImageJ/
+  HTTP/1.1 404 Not Found
+  $ curl -Is http://javadoc.imagej.net/ImageJ3 | head -n 1
+  HTTP/1.1 404 Not Found
