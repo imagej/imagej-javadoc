@@ -134,5 +134,4 @@
 			<artifactId>imagej-usage</artifactId>
 		</dependency>
 	</dependencies>
-
 </project>
