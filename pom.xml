@@ -65,7 +65,6 @@
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-launcher</artifactId>
-			<version>${imagej-launcher.version}</version>
 			<type>nar</type>
 		</dependency>
 
