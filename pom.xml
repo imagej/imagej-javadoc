@@ -33,6 +33,21 @@
 
 	<properties>
 		<scijava.jvm.version>1.8</scijava.jvm.version>
+		<imagej.version>RELEASE</imagej.version>
+		<ij1-patcher.version>RELEASE</ij1-patcher.version>
+		<imagej-common.version>RELEASE</imagej-common.version>
+		<imagej-launcher.version>RELEASE</imagej-launcher.version>
+		<imagej-legacy.version>RELEASE</imagej-legacy.version>
+		<imagej-omero.version>RELEASE</imagej-omero.version>
+		<imagej-ops.version>RELEASE</imagej-ops.version>
+		<imagej-plugins-commands.version>RELEASE</imagej-plugins-commands.version>
+		<imagej-plugins-tools.version>RELEASE</imagej-plugins-tools.version>
+		<imagej-plugins-uploader-ssh.version>RELEASE</imagej-plugins-uploader-ssh.version>
+		<imagej-plugins-uploader-webdav.version>RELEASE</imagej-plugins-uploader-webdav.version>
+		<imagej-ui-awt.version>RELEASE</imagej-ui-awt.version>
+		<imagej-ui-swing.version>RELEASE</imagej-ui-swing.version>
+		<imagej-updater.version>RELEASE</imagej-updater.version>
+		<imagej-usage.version>RELEASE</imagej-usage.version>
 	</properties>
 
 	<repositories>
