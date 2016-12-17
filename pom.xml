@@ -201,4 +201,15 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 			<artifactId>imagej-usage</artifactId>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<skipIfEmpty>false</skipIfEmpty>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
