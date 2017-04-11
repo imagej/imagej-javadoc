@@ -36,8 +36,6 @@ Ensure URL proxies all still work:
   HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/LOCI/index.html | head -n 1
   HTTP/1.1 200 OK
-  $ curl -Is http://javadoc.imagej.net/MPI-CBG/index.html | head -n 1
-  HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/Pivot/index.html | head -n 1
   HTTP/1.1 200 OK
   $ curl -Is http://javadoc.imagej.net/MigLayout/index.html | head -n 1
@@ -107,8 +105,6 @@ Check that URLs work without trailing slashes:
   $ curl -Is http://javadoc.imagej.net/NetBeans | head -n 1
   HTTP/1.1 301 Moved Permanently
   $ curl -Is http://javadoc.imagej.net/LOCI | head -n 1
-  HTTP/1.1 301 Moved Permanently
-  $ curl -Is http://javadoc.imagej.net/MPI-CBG | head -n 1
   HTTP/1.1 301 Moved Permanently
   $ curl -Is http://javadoc.imagej.net/Pivot | head -n 1
   HTTP/1.1 301 Moved Permanently
