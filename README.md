@@ -1,11 +1,7 @@
-[![](http://jenkins.imagej.net/job/ImageJ-javadoc/lastBuild/badge/icon)](http://jenkins.imagej.net/job/ImageJ-javadoc/)
+[![](https://travis-ci.org/imagej/imagej-javadoc.svg?branch=master)](https://travis-ci.org/imagej/imagej-javadoc)
 
 This project aggregates the javadoc of ImageJ components.
 
 They are built and published to:
 
-* http://javadoc.imagej.net/ImageJ/
-
-By the following Jenkins job:
-
-* http://jenkins.imagej.net/job/ImageJ-javadoc/
+* https://javadoc.scijava.org/ImageJ/
