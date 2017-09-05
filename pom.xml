@@ -15,7 +15,7 @@
 
 	<name>ImageJ Javadocs</name>
 	<description>All the Javadocs for ImageJ.</description>
-	<url>http://javadoc.imagej.net/ImageJ/</url>
+	<url>https://javadoc.scijava.org/ImageJ/</url>
 	<inceptionYear>2014</inceptionYear>
 	<organization>
 		<name>ImageJ</name>
@@ -75,8 +75,8 @@
 		<url>https://github.com/imagej/imagej-javadoc/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/ImageJ-javadoc/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/imagej/imagej-javadoc/</url>
 	</ciManagement>
 
 	<properties>
