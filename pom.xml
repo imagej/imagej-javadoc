@@ -90,12 +90,17 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<imagej-common.version>RELEASE</imagej-common.version>
 		<imagej-launcher.version>RELEASE</imagej-launcher.version>
 		<imagej-legacy.version>RELEASE</imagej-legacy.version>
+		<imagej-mesh.version>RELEASE</imagej-mesh.version>
+		<imagej-notebook.version>RELEASE</imagej-notebook.version>
 		<imagej-omero.version>RELEASE</imagej-omero.version>
+		<imagej-omero-legacy.version>RELEASE</imagej-omero-legacy.version>
 		<imagej-ops.version>RELEASE</imagej-ops.version>
 		<imagej-plugins-commands.version>RELEASE</imagej-plugins-commands.version>
 		<imagej-plugins-tools.version>RELEASE</imagej-plugins-tools.version>
 		<imagej-plugins-uploader-ssh.version>RELEASE</imagej-plugins-uploader-ssh.version>
 		<imagej-plugins-uploader-webdav.version>RELEASE</imagej-plugins-uploader-webdav.version>
+		<imagej-server.version>RELEASE</imagej-server.version>
+		<imagej-tensorflow.version>RELEASE</imagej-tensorflow.version>
 		<imagej-ui-awt.version>RELEASE</imagej-ui-awt.version>
 		<imagej-ui-swing.version>RELEASE</imagej-ui-swing.version>
 		<imagej-updater.version>RELEASE</imagej-updater.version>
@@ -141,10 +146,28 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 			<artifactId>imagej-legacy</artifactId>
 		</dependency>
 
+		<!-- ImageJ Mesh - https://github.com/imagej/imagej-mesh -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-mesh</artifactId>
+		</dependency>
+
+		<!-- ImageJ Notebook - https://github.com/imagej/imagej-notebook -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-notebook</artifactId>
+		</dependency>
+
 		<!-- ImageJ OMERO - https://github.com/imagej/imagej-omero -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-omero</artifactId>
+		</dependency>
+
+		<!-- ImageJ OMERO Legacy - https://github.com/imagej/imagej-omero-legacy -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-omero-legacy</artifactId>
 		</dependency>
 
 		<!-- ImageJ Ops - https://github.com/imagej/imagej-ops -->
@@ -175,6 +198,18 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-plugins-uploader-webdav</artifactId>
+		</dependency>
+
+		<!-- ImageJ Server - https://github.com/imagej/imagej-server -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-server</artifactId>
+		</dependency>
+
+		<!-- ImageJ TensorFlow - https://github.com/imagej/imagej-tensorflow -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-tensorflow</artifactId>
 		</dependency>
 
 		<!-- ImageJ UI: AWT - https://github.com/imagej/imagej-ui-awt -->
