@@ -99,7 +99,6 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<imagej-plugins-tools.version>RELEASE</imagej-plugins-tools.version>
 		<imagej-plugins-uploader-ssh.version>RELEASE</imagej-plugins-uploader-ssh.version>
 		<imagej-plugins-uploader-webdav.version>RELEASE</imagej-plugins-uploader-webdav.version>
-		<imagej-server.version>RELEASE</imagej-server.version>
 		<imagej-tensorflow.version>RELEASE</imagej-tensorflow.version>
 		<imagej-ui-awt.version>RELEASE</imagej-ui-awt.version>
 		<imagej-ui-swing.version>RELEASE</imagej-ui-swing.version>
@@ -198,12 +197,6 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-plugins-uploader-webdav</artifactId>
-		</dependency>
-
-		<!-- ImageJ Server - https://github.com/imagej/imagej-server -->
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej-server</artifactId>
 		</dependency>
 
 		<!-- ImageJ TensorFlow - https://github.com/imagej/imagej-tensorflow -->
