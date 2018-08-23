@@ -7,6 +7,3 @@ script: ".travis/build.sh"
 cache:
   directories:
   - "~/.m2/repository"
-env:
-  global:
-    secure: PMyYA1CgXru67oJ/eQ++lhBlPmeXunbJ/SvL0nMKAQajLMy5TYiRuIjrByPOWOS+g1eilMXNV87ZpQcbP/6rneyJI7eN15p1snngpQGSYf7NE1bExQzYN4zWibapDHRCDv47+ox33vQo1GxolE0gPPL2ZQp4Iag3lpzfOfP6X5o=
