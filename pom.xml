@@ -80,6 +80,7 @@
 	</ciManagement>
 
 	<properties>
+		<automatic-module-name>net.imagej.javadoc</automatic-module-name>
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>Board of Regents of the University of
 Wisconsin-Madison, Broad Institute of MIT and Harvard, and Max Planck
