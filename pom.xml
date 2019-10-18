@@ -136,7 +136,6 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-launcher</artifactId>
-			<type>nar</type>
 		</dependency>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
