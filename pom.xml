@@ -91,15 +91,19 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<imagej-common.version>RELEASE</imagej-common.version>
 		<imagej-launcher.version>RELEASE</imagej-launcher.version>
 		<imagej-legacy.version>RELEASE</imagej-legacy.version>
+		<imagej-matlab.version>RELEASE</imagej-matlab.version>
 		<imagej-mesh.version>RELEASE</imagej-mesh.version>
+		<imagej-mesh-io.version>RELEASE</imagej-mesh-io.version>
 		<imagej-notebook.version>RELEASE</imagej-notebook.version>
 		<imagej-omero.version>RELEASE</imagej-omero.version>
 		<imagej-omero-legacy.version>RELEASE</imagej-omero-legacy.version>
 		<imagej-ops.version>RELEASE</imagej-ops.version>
+		<imagej-plugins-batch.version>RELEASE</imagej-plugins-batch.version>
 		<imagej-plugins-commands.version>RELEASE</imagej-plugins-commands.version>
 		<imagej-plugins-tools.version>RELEASE</imagej-plugins-tools.version>
 		<imagej-plugins-uploader-ssh.version>RELEASE</imagej-plugins-uploader-ssh.version>
 		<imagej-plugins-uploader-webdav.version>RELEASE</imagej-plugins-uploader-webdav.version>
+		<imagej-server.version>RELEASE</imagej-server.version>
 		<imagej-tensorflow.version>RELEASE</imagej-tensorflow.version>
 		<imagej-ui-awt.version>RELEASE</imagej-ui-awt.version>
 		<imagej-ui-swing.version>RELEASE</imagej-ui-swing.version>
@@ -145,10 +149,22 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 			<artifactId>imagej-legacy</artifactId>
 		</dependency>
 
+		<!-- ImageJ MATLAB - https://github.com/imagej/imagej-matlab -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-matlab</artifactId>
+		</dependency>
+
 		<!-- ImageJ Mesh - https://github.com/imagej/imagej-mesh -->
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-mesh</artifactId>
+		</dependency>
+
+		<!-- ImageJ Mesh I/O - https://github.com/imagej/imagej-mesh-io -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-mesh-io</artifactId>
 		</dependency>
 
 		<!-- ImageJ Notebook - https://github.com/imagej/imagej-notebook -->
@@ -175,6 +191,12 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 			<artifactId>imagej-ops</artifactId>
 		</dependency>
 
+		<!-- ImageJ Plugins: Batch - https://github.com/imagej/imagej-plugins-batch -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-plugins-batch</artifactId>
+		</dependency>
+
 		<!-- ImageJ Plugins: Commands - https://github.com/imagej/imagej-plugins-commands -->
 		<dependency>
 			<groupId>net.imagej</groupId>
@@ -197,6 +219,12 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-plugins-uploader-webdav</artifactId>
+		</dependency>
+
+		<!-- ImageJ Server - https://github.com/imagej/imagej-server -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-server</artifactId>
 		</dependency>
 
 		<!-- ImageJ TensorFlow - https://github.com/imagej/imagej-tensorflow -->
