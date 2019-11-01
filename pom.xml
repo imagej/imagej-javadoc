@@ -141,6 +141,7 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-launcher</artifactId>
+			<version>${imagej-launcher.version}</version>
 		</dependency>
 
 		<!-- ImageJ Legacy - https://github.com/imagej/imagej-legacy -->
@@ -153,6 +154,7 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-matlab</artifactId>
+			<version>${imagej-matlab.version}</version>
 		</dependency>
 
 		<!-- ImageJ Mesh - https://github.com/imagej/imagej-mesh -->
