@@ -109,6 +109,8 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<imagej-ui-swing.version>RELEASE</imagej-ui-swing.version>
 		<imagej-updater.version>RELEASE</imagej-updater.version>
 		<imagej-usage.version>RELEASE</imagej-usage.version>
+
+		<enforcer.skip>true</enforcer.skip>
 	</properties>
 
 	<repositories>
