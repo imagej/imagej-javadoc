@@ -108,7 +108,6 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<imagej-ui-awt.version>RELEASE</imagej-ui-awt.version>
 		<imagej-ui-swing.version>RELEASE</imagej-ui-swing.version>
 		<imagej-updater.version>RELEASE</imagej-updater.version>
-		<imagej-usage.version>RELEASE</imagej-usage.version>
 
 		<enforcer.skip>true</enforcer.skip>
 	</properties>
@@ -253,12 +252,6 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 		<dependency>
 			<groupId>net.imagej</groupId>
 			<artifactId>imagej-updater</artifactId>
-		</dependency>
-
-		<!-- ImageJ Usage - https://github.com/imagej/imagej-usage -->
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej-usage</artifactId>
 		</dependency>
 	</dependencies>
 
